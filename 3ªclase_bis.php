@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-
+//Comentario.
 echo "Llamamos a 3ª_clase.php con include. </br>";
 echo "Primero con un error en la url del archivo. </br>";
 include ("3º_clase.php");
