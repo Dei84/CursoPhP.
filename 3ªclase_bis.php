@@ -15,10 +15,6 @@ include ("3º_clase.php");
 echo "Luego lo llamamos con el nombre bien puesto";
 include ("3ª_clase.php");
 damedatos();
-
 ?>
-
-
-
 </body>
 </html>
