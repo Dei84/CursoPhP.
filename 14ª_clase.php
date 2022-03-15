@@ -9,7 +9,7 @@
 <body>
     
 <?php 
-//#22-23-24-25 git commit -m "Encapsulación, Modificadores de acceso y funciones Get&Set"
+//#22-23-24-25 
 include "14ªclase_bis.php";
 
 $mazda = new Coche();
