@@ -19,6 +19,12 @@ echo "El Pegaso tiene $pegaso->ruedas ruedas. <br>";
 $mazda->arrancar();
 $mazda->girar();
 $mazda->establece_color("rojo","Mazda");
+
+$pegaso->frenar();
+$pegaso->establece_color("negro", "Pegaso");
+$pegaso->arrancar();
+
+
 ?>
 
 </body>
