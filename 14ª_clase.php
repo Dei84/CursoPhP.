@@ -9,20 +9,22 @@
 <body>
     
 <?php 
-//#22-23-24-25
+//#22-23-24-25 git commit -m "Encapsulación, Modificadores de acceso y funciones Get&Set"
 include "14ªclase_bis.php";
 
 $mazda = new Coche();
-$pegaso = new Camion();
-echo "El Mazda tiene $mazda->ruedas ruedas.<br>";
-echo "El Pegaso tiene $pegaso->ruedas ruedas. <br>";
 $mazda->arrancar();
 $mazda->girar();
-$mazda->establece_color("rojo","Mazda");
+$mazda->set_color("rojo","Mazda");
+echo "El Mazda tiene " . $mazda->get_ruedas() . " ruedas<br>";
+echo "El Mazda tiene un motor de " . $mazda->get_motor() . "<br>";
 
+$pegaso = new Camion();
 $pegaso->frenar();
-$pegaso->establece_color("negro", "Pegaso");
+$pegaso->set_color("negro", "Pegaso");
 $pegaso->arrancar();
+echo "El Pegaso tiene " . $pegaso->get_ruedas() . " ruedas.<br>";
+echo "El Pegaso tiene " . $pegaso->get_ruedas() . " ruedas.<br>";
 
 
 ?>
